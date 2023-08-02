@@ -6,3 +6,12 @@ console.log(cityName.length)
 cityName.length = 2;
 console.log(cityName.length)
 console.log(cityName)
+
+
+let languages = ["JavaScript", "Java", "Python"];
+
+let constructor = languages.constructor;
+console.log(constructor)
+
+// Output:
+// [Function: Array]
