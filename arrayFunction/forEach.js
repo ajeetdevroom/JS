@@ -16,3 +16,8 @@ prices.forEach(printElements);
 // Array Element 4: 5000
 // Array Element 5: 500
 // Array Element 6: 8000
+
+let keyArr=arr.keys()
+for(let elm of keyArr){
+    console.log(elm)
+}

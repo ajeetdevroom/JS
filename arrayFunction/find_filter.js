@@ -20,3 +20,4 @@ function checkEven(number) {
 // create a new array by filter even numbers from the numbers array
 let evenNumbers = numbers.filter(checkEven);
 console.log("filter - ",evenNumbers);
+// [4, 4]
